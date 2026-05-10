@@ -1,0 +1,72 @@
+{
+  "formations": [
+    {
+      "cycle": "Bachelor",
+      "module": "Algorithmique et Structures de Donnees",
+      "periode": "Semestre 1",
+      "volumeHoraire": "42h"
+    },
+    {
+      "cycle": "Bachelor",
+      "module": "Developpement Web Front-end",
+      "periode": "Semestre 2",
+      "volumeHoraire": "48h"
+    },
+    {
+      "cycle": "Bachelor",
+      "module": "Bases de Donnees SQL",
+      "periode": "Semestre 2",
+      "volumeHoraire": "36h"
+    },
+    {
+      "cycle": "Cycle Ingenieur",
+      "module": "Architecture Logicielle Avancee",
+      "periode": "Semestre 5",
+      "volumeHoraire": "40h"
+    },
+    {
+      "cycle": "Cycle Ingenieur",
+      "module": "Cybersecurite et Pentest",
+      "periode": "Semestre 6",
+      "volumeHoraire": "38h"
+    },
+    {
+      "cycle": "Cycle Ingenieur",
+      "module": "Intelligence Artificielle appliquee",
+      "periode": "Semestre 7",
+      "volumeHoraire": "44h"
+    }
+  ],
+  "permanences": [
+    {
+      "jour": "Lundi",
+      "horaire": "10:00 - 12:00",
+      "enseignant": "Pr. Legrand",
+      "salle": "B-204"
+    },
+    {
+      "jour": "Mardi",
+      "horaire": "14:00 - 16:00",
+      "enseignant": "Pr. Morel",
+      "salle": "C-117"
+    },
+    {
+      "jour": "Mercredi",
+      "horaire": "09:00 - 11:00",
+      "enseignant": "Pr. Bernard",
+      "salle": "A-310"
+    },
+    {
+      "jour": "Jeudi",
+      "horaire": "13:30 - 15:30",
+      "enseignant": "Pr. Dubois",
+      "salle": "D-122"
+    },
+    {
+      "jour": "Vendredi",
+      "horaire": "11:00 - 13:00",
+      "enseignant": "Pr. Garcia",
+      "salle": "E-210"
+    }
+  ]
+}

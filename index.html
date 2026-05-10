@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site vitrine du departement Informatique de l'EFREI.">
+  <title>EFREI Informatique - Accueil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Accueil EFREI Informatique">
+        <img src="media/images/logo-efrei.png" alt="Logo EFREI">
+        <span>EFREI INFO</span>
+      </a>
+      <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav" class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="formations.html">Formations</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-text">
+        <h1>Construisons l'informatique de demain</h1>
+        <p>Le departement Informatique de l'EFREI forme des profils innovants, rigoureux et prets pour les enjeux technologiques du futur.</p>
+        <a class="btn-cta" href="formations.html">Decouvrir nos parcours</a>
+      </div>
+      <div class="hero-media">
+        <img src="media/images/hero-campus.jpg" alt="Etudiants en informatique dans un espace high-tech a l'EFREI">
+      </div>
+    </section>
+
+    <section class="container key-figures reveal">
+      <h2>Chiffres cles</h2>
+      <div class="cards-grid">
+        <article class="card"><h3>2500+</h3><p>Etudiants en filiere numerique</p></article>
+        <article class="card"><h3>95%</h3><p>Taux d'insertion professionnelle</p></article>
+        <article class="card"><h3>120+</h3><p>Partenaires entreprises</p></article>
+      </div>
+    </section>
+
+    <section class="container carousel-section reveal">
+      <h2>Vie du departement</h2>
+      <div class="carousel" data-carousel>
+        <button class="carousel-btn prev" data-action="prev" aria-label="Image precedente">&#10094;</button>
+        <div class="carousel-track">
+          <figure class="slide active">
+            <img src="media/images/lab-ia.jpg" alt="Laboratoire d'intelligence artificielle avec eclairage neon">
+            <figcaption>Lab IA - projets concrets et experimentation.</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="media/images/hackathon.jpg" alt="Equipe d'etudiants participant a un hackathon de nuit">
+            <figcaption>Hackathons - challenge et collaboration.</figcaption>
+          </figure>
+          <figure class="slide">
+            <img src="media/images/conference.jpg" alt="Conference tech animee par un expert en cybersecurite">
+            <figcaption>Conferences - ouverture sur l'ecosysteme tech.</figcaption>
+          </figure>
+        </div>
+        <button class="carousel-btn next" data-action="next" aria-label="Image suivante">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <h2>Actualites</h2>
+      <ul class="custom-list">
+        <li>Nouvelle specialisation en IA responsable des la rentree.</li>
+        <li>Partenariat etendu avec des acteurs majeurs du cloud.</li>
+        <li>Ouverture d'un espace cyber range dedie a la securite offensive.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EFREI - Departement Informatique</p>
+    </div>
+  </footer>
+</body>
+</html>

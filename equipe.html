@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Equipe pedagogique du departement Informatique de l'EFREI.">
+  <title>EFREI Informatique - Equipe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Accueil EFREI Informatique">
+        <img src="media/images/logo-efrei.png" alt="Logo EFREI">
+        <span>EFREI INFO</span>
+      </a>
+      <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav" class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="formations.html">Formations</a></li>
+          <li><a href="equipe.html" class="active">Equipe</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-text">
+        <h1>Une equipe pedagogique engagee</h1>
+        <p>Nos enseignants accompagnent les etudiants sur les plans scientifique, technique et humain.</p>
+      </div>
+      <div class="hero-media">
+        <img src="media/images/equipe.jpg" alt="Professeurs en reunion autour de postes informatiques">
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <h2>Professeurs references</h2>
+      <ul class="custom-list">
+        <li>Pr. Legrand - Algorithmique et optimisation</li>
+        <li>Pr. Morel - Developpement Web avance</li>
+        <li>Pr. Bernard - Data engineering</li>
+        <li>Pr. Dubois - Cybersecurite defensive</li>
+        <li>Pr. Garcia - IA et apprentissage automatique</li>
+      </ul>
+    </section>
+
+    <section class="container reveal">
+      <h2>Agenda interactif des permanences</h2>
+      <div id="agendaContainer" class="agenda-grid" aria-live="polite">
+        <p>Chargement de l'agenda...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EFREI - Departement Informatique</p>
+    </div>
+  </footer>
+</body>
+</html>

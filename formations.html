@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formations en informatique a l'EFREI.">
+  <title>EFREI Informatique - Formations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Accueil EFREI Informatique">
+        <img src="media/images/logo-efrei.png" alt="Logo EFREI">
+        <span>EFREI INFO</span>
+      </a>
+      <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav" class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="formations.html" class="active">Formations</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-text">
+        <h1>Des parcours complets et professionnalisants</h1>
+        <p>Du Bachelor au Cycle Ingenieur, les programmes de l'EFREI allient fondamentaux, projets et immersion en entreprise.</p>
+      </div>
+      <div class="hero-media">
+        <img src="media/images/formations.jpg" alt="Salle de cours informatique avec ecran interactif et ambiance neon">
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <h2>Catalogue des modules</h2>
+      <p>Le tableau ci-dessous est alimente dynamiquement depuis un fichier JSON via JavaScript.</p>
+      <div class="table-wrapper">
+        <table aria-describedby="description-table-formations">
+          <caption id="description-table-formations">Modules du Bachelor et du Cycle Ingenieur</caption>
+          <thead>
+            <tr>
+              <th scope="col">Cycle</th>
+              <th scope="col">Module</th>
+              <th scope="col">Periode</th>
+              <th scope="col">Volume horaire</th>
+            </tr>
+          </thead>
+          <tbody id="formationsTableBody">
+            <tr>
+              <td colspan="4">Chargement des formations...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EFREI - Departement Informatique</p>
+    </div>
+  </footer>
+</body>
+</html>

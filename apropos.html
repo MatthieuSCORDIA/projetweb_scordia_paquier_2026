@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A propos du projet web du departement Informatique de l'EFREI.">
+  <title>EFREI Informatique - A propos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Accueil EFREI Informatique">
+        <img src="media/images/logo-efrei.png" alt="Logo EFREI">
+        <span>EFREI INFO</span>
+      </a>
+      <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav" class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="formations.html">Formations</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="apropos.html" class="active">A propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-no-media reveal">
+      <div class="hero-text">
+        <h1>Equipe de developpement</h1>
+        <p>Ce site vitrine a ete concu pour valoriser l'identite numerique du departement Informatique de l'EFREI.</p>
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <h2>Les auteurs du projet</h2>
+      <div class="cards-grid cards-grid-authors">
+        <article class="card card-author">
+          <h3>MATTHIEU SCORDIA</h3>
+          <img src="media/images/matieu-createur.jpg" alt="Photo de Matieu, createur du site">
+          <p>Développeur HTML et JS</p>
+        </article>
+        <article class="card card-author">
+          <h3>AUGUSTIN PAQUIER</h3>
+          <img src="media/images/augustin-createur.jpg" alt="Photo d'Augustin, createur du site">
+          <p>Développeur HTML et CSS</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EFREI - Departement Informatique</p>
+    </div>
+  </footer>
+</body>
+</html>
